@@ -1,0 +1,375 @@
+body {
+    background-image: linear-gradient(#18413f, #124d55, #28b6bb, #6ef3ec, #c7eff7 70%);
+    min-height: 100vh;
+    color: #fff;
+}
+
+#Logo {
+    width: 10%;
+}
+
+#Logo img{
+    width: 100%;
+}
+
+.Pagina_produtos {
+    background-image: linear-gradient(#18413f, #124d55, #28b6bb, #73f36e7a, #9799033b 70%);
+    min-height: 100vh;
+    color: #0f0f0f;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.377) !important;
+
+}
+
+.nav-link {
+    color: #080808;
+    transform: .3s;
+}
+
+.nav-link:hover {
+    color: #926ef3;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.login {
+    color: #ffffff;
+    margin: 0 10px;
+    transition: .5s;
+}
+.carrinho_1{
+    padding: 5px;
+    border: 3px solid #f1e204;
+    border-radius: 25px;
+}
+#frase-principal h1 {
+    padding: 100px 80px;
+}
+
+.title {
+    color: #000000;
+    border: 1.5px solid #000000;
+    padding: 5px 15px;
+    border-radius: 25px;
+    width: 300px;
+    margin: auto;
+}
+
+#destaques {
+    padding: 30px 250px;
+}
+
+#destaques img {
+    width: 60%;
+    border-radius: 10px;
+    margin: 0 20%;
+    margin-top: -25px;
+}
+
+.info-card {
+    text-align: center;
+    margin: 30px;
+}
+
+.info-card h6 {
+    color: #0a0a0a;
+    font-weight: 600;
+}
+
+.info-card hr {
+    border-top: 1px #020202 solid;
+    opacity: 1;
+}
+
+.preco {
+    color: #201255;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+
+}
+
+.preco-riscado {
+    color: #201255;
+    text-decoration: line-through;
+    margin-bottom: 0px;
+    font-size: .8em;
+
+}
+
+.tag-off {
+    position: relative;
+    margin: 0 22%;
+    font-weight: bold;
+    color: #f12424;
+    z-index: 2;
+    font-size: 1.2em;
+}
+
+#user img {
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.txt-branco {
+    color: #fff !important;
+    border: 1.5px solid #ffffff;
+margin-bottom: 25px;
+}
+
+#Filtro {
+    padding: 150px 39px;
+    border-right: 1px solid #fff;
+}
+
+.titulos_filtro {
+    font-size: 1.25em;
+    padding-top: 3px;
+    padding-bottom: 3.25px;
+    margin-bottom: 4px;
+}
+
+.form-check {
+    font-size: smaller;
+}
+
+.Produto{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 1em 4em;
+    border-radius: 50px;
+    padding: 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.Produto:hover{
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.Produto img {
+    width: 300px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.Info_card{
+ text-align: center;   
+}
+.Info_card h6 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #d8db12;
+}
+.preco_produto{
+    color: #fcfcfc;
+}
+
+.codigo_produto {
+    color: #e8e7eb;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.Info_card hr {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 60%;
+    border-top: 1.25px #ebe3eabb solid;
+    opacity: 1;
+    margin: auto;
+}
+
+#User_page_icone img{
+    width: 8%;
+    margin:auto;
+}
+#pauzinho{
+    border-right: 1px solid #fff;
+}
+/*.form-control{
+    width: 66%;
+    margin-left: 192px;
+    margin-right: 5%;
+    border-radius: 20px;
+    opacity: 60%;
+}*/
+
+#pauzinho .form-check,
+.form-login{
+    width: 70%;
+    margin: auto;
+}
+#pauzinho .form-check{
+    font-size: 1.1em;
+}
+.title-login{
+text-align: center;
+    font-size: 40px;
+    color: #FFF;
+    margin: 3% auto;
+}
+
+#pauzinho a{
+    color: #926ef3;
+    text-decoration: none;
+}
+#pauzinho a:hover{
+    color: #4e28bb;
+}
+
+.btn-entrar{
+    color: #fafafa;
+    background-color: #201255;
+    width: 50%;
+    padding: 10px 15px;
+    font-size: 2.1em;
+    
+}
+
+.btn-entrar:hover{
+    color: #FFF;
+    background-color: #4e28bb;
+}
+
+#div-btn{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#div-btn .btn-light{
+    margin-top: 8px;
+    width: 80%;
+    padding: 10px 15px;
+    font-size: 1.1em;
+}
+
+#btn-face{
+    width: 12%;
+}
+
+#btn-google{
+    width: 6%;
+    margin: 0 15px;
+}
+.btn-dark{
+    margin-left: 40%;
+    padding: 0.75em 2%;
+}
+#div-btn p{
+    margin: 12px 0;
+    font-size: 1.1em;
+}
+.modal-body{
+    color: #000;
+}
+.modal-title{
+    color: #000;
+}
+.Temas{
+   margin: 2% 10%;
+   font-size: 1.1em;
+}
+.Titulo_Tema{
+    font-size: 25px;
+}
+#Texto_Contato{
+    font-size: 1.2em;
+    margin: 2% 11%;
+}
+.Texto_preto{
+    font-size: 1.3em;
+    color: #000;
+}
+#forma-email_contato{
+    width: 50%;
+    border-radius: 30px;
+}
+
+#Destaques{
+    text-decoration: none;
+}
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .form-group {
+    margin-bottom: 100px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 80%;
+    padding: 5px;
+    max-width: 100px;
+    margin: 0 auto;
+    width: 70%
+  }
+
+  .form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: rgb(255, 252, 252);
+    cursor: pointer;
+  }
+  .Cadastro{
+    color: rgb(245, 243, 243);
+    margin: 0 auto;
+  }
+.localizador{
+    text-align: center;
+}
+.text-loc{
+    margin-top: 150px;
+    margin-left: 10px;
+}
+.jv{
+    margin-left: 25%;
+}
+.botaoporcentagem{
+    margin-left: 30%;
+    margin-top: 7px;
+}
+.container-form{
+    margin-top: 160px;
+    margin-left: 220px;
+}
+.blink {
+    animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 200px;
+  }
+  .telefone{
+    color: rgb(247, 244, 244);
+  }

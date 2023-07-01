@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pet Monitor</title>
+  <link rel="shortcut icon" href="IMG/Icons8-Windows-8-Animals-Dog-Track.512.png" type="image/x-icon">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="Pagina_produtos">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div id="Logo">
+        <img src="IMG/iconifront.png" alt="">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Produtos.html">Pets perdidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logindopet.html">Login do Pet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Contato.html">Contato</a>
+          </li>
+        </ul>
+        <div id="user">
+          <img src="IMG/User.png" alt="">
+          <a class="login" href="Login Sign up.html">Login/Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br><br>
+  <div class="row">
+    <br><br>
+    <div class="col text-loc">
+      <h1>Minhas redes sociais</h1>
+      <h2>Quem sou eu?</h2>
+      <img src="IMG/fotodoperfil.png" alt="" width="150">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora animi aperiam illum voluptatum distinctio unde
+        vero! Vel veritatis, magni repudiandae doloremque mollitia corrupti laboriosam obcaecati repellendus deserunt
+        voluptatem perferendis voluptates! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, autem.
+        Asperiores quae qui debitis praesentium quisquam atque at suscipit explicabo rerum laborum quod, impedit veniam
+        reiciendis laudantium accusamus facere beatae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
+        sint vitae ex, mollitia et molestiae quia deserunt nisi ab odio ducimus amet blanditiis non. Officiis autem nemo
+        nihil cupiditate voluptatum!</p>
+      <h3>Contatos</h3>
+      <ul>
+        <li><b class="Telefone">Telefone:</b> XXXX-XXXX</li>
+        <li><img src="IMG/icone-facebook.png" alt="facebook"><a
+            href="https://www.facebook.com/marketplace/?ref=app_tab"> Facebook</a> acessa meu facebook</li>
+        <li><img src="IMG/icone-youtube.png" alt="insta"><a href="https://www.instagram.com/">instagram</a> acesse meu
+          canal do instagram</li>
+        <li><b>Endereço:</b> XXXXXXXXX, XXXXXX, XXXXXX</li>
+      </ul>
+      <hr>
+      <div class="row">
+        <h1>Perfil do pet</h1>
+        <div class="col-2">
+          <img src="IMG/fotodoperfil.png" alt="foto" width="150">
+        </div>
+        <div class="col">
+          <b>Informaçoes do pet:</b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
+          delectus alias omnis
+          ducimus quasi cum ex porro, quod soluta fugiat recusandae inventore dignissimos expedita animi, asperiores
+          veritatis
+          vero cupiditate similique?
+        </div>
+        <ul>
+          <li>Nome: XXXXX XXXXX</li>
+          <li>Idade: 10</li>
+          <li>Raça: XXXX</li>
+          <li>Peso: XX.XX</li>
+        </ul>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+      <h1 class="localizador">Localizador de Pet</h1>
+      <div class="container-form">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15353.660141194887!2d-48.0557646128418!3d-15.83476919999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3398323f9453%3A0x653fad44a75c267c!2sMundo%20Pet%20Cobasi%20Bras%C3%ADlia%20%C3%81guas%20Claras!5e0!3m2!1spt-BR!2sbr!4v1687483128133!5m2!1spt-BR!2sbr" width="600" height="450" style="border:4;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="jv">
+        <br>
+        <p><strong>Distância até o Pet:</strong> <span id="distancia"></span></p>
+        <p><strong>Última Localização Registrada:</strong> <span id="ultima-localizacao"></span></p>
+        <div id="batteryIndicator">Porcentagem da Bateria do Localizador do Pet: <span id="batteryPercentage"></span>%
+        </div>
+      </div>
+      <button class="botaoporcentagem" onclick="obterLocalizacao()">Obter Localização</button>
+      <button class="button blink">Perdi meu pet</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</head>
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
